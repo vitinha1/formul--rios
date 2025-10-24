@@ -1,0 +1,65 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+ }
+ 
+ :root {
+     font-size: 62.5%;
+ 
+ }
+ 
+ #page {
+     max-width: 1200px;
+     margin-inline: auto;
+ }
+ 
+ body {
+     font-size: 1.6rem;
+     background-color: oklch(45% 0.085 224.283);
+     color: #FFF;
+ }
+ 
+ header{
+     padding-block: 2rem;
+     text-align: center;
+ }
+ 
+ fieldset{
+     padding: 1.5rem;
+ 
+     input {
+         display: block;
+         margin-top: .6rem;
+         padding: .5rem;
+         border-radius: 1rem;
+         border: none;
+         color: oklch(37% 0.013 285.805);
+     
+     }
+ 
+     input:focus {
+         outline: 2px solid oklch(79.2% 0.209 151.711);
+     }
+
+     input::placeholder{
+        color: oklch(37% 0.013 285.805);
+     }
+ 
+     div{
+         margin-bottom: 1rem;
+     }
+
+     input:[type=file] {
+        color: #FFF
+     }
+
+     input[type=checkbox],
+     input[type=radio] {
+        display: inline-block;
+        outline: none;
+     }
+ }
+ 
+ 
